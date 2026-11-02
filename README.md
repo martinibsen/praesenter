@@ -4,13 +4,17 @@ Making slides in HTML? Præsenter lays out every deck and every slide on one can
 
 **Mac:** [download Praesenter.dmg](https://produktland.dk/praesenter/hent/Praesenter.dmg) (macOS 12 or newer, Intel and Apple Silicon), open it and drag Præsenter to Applications. The app is signed and notarised.
 
+**Windows (beta):** [download Praesenter-Setup.exe](https://produktland.dk/praesenter/hent/Praesenter-Setup.exe).
+
+Free while Præsenter is in beta.
+
 **Developers, any platform:**
 
 ```sh
 npx praesenter ./slides
 ```
 
-This repository holds the releases and the readme; the source lives in the produktland.dk codebase and is published as the `praesenter` package on npm. More at [produktland.dk/praesenter](https://produktland.dk/en/praesenter).
+This repository holds the releases, the licence and the readme; the source lives in the produktland.dk codebase. More at [produktland.dk/en/slides](https://produktland.dk/en/slides/).
 
 ![Præsenter: a slide is dragged to a new place, Cmd+Z puts it back, and a slide is opened large where the heading is moved](https://produktland.dk/praesenter/laerred-en.gif)
 
@@ -22,7 +26,7 @@ This repository holds the releases and the readme; the source lives in the produ
 
 The first run comes with an example deck of six slides, one per thing you can do; it is copied into your user folder, so play with it. The rest sits behind **Help** at the bottom of the sidebar.
 
-Nothing leaves your machine. The server listens on 127.0.0.1 only, and the positions on the free canvas are kept in your user folder (`~/Library/Application Support/Praesenter` on macOS, `~/.config/praesenter` on Linux, `%APPDATA%\Praesenter` on Windows), never in the deck.
+Your decks stay on your machine. The server listens on 127.0.0.1 only, and the positions on the free canvas are kept in your user folder (`~/Library/Application Support/Praesenter` on macOS, `~/.config/praesenter` on Linux, `%APPDATA%\Praesenter` on Windows), never in the deck.
 
 ## Which decks
 
@@ -69,4 +73,4 @@ Node.js 20 or newer. Chrome, Edge, Safari or Firefox from 2024 or later (the can
 
 [Produktland](https://produktland.dk/en/praesenter/) (Martin Ibsen). Siblings: [Point](https://produktland.dk/en/peg/), a Mac app for drawing on what the AI should fix, and [Lyt](https://produktland.dk/en/lyt/), which makes you better one meeting at a time.
 
-MIT licence.
+Free to use, for personal and commercial work, while Præsenter is in beta. Præsenter is not open source: see [LICENSE](LICENSE). Versions up to and including 0.4.25 were released under the MIT licence. What leaves your machine (the AI you choose, the read-aloud voice, feedback, update checks) is described in the [privacy policy](https://produktland.dk/en/privatlivspolitik/).
