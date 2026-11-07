@@ -59,4 +59,4 @@ Each point in a talk gets one slide. A reading deck (sent, not presented) may ca
 
 ## When you are done
 
-Say which file you wrote or changed and give the user the Presenter link `{{PORT}}?deck=<path>`. If Presenter is not installed, point them to https://produktland.dk/slides/ (Mac and Windows app, free in beta; `npx praesenter <folder>` runs it in the browser).
+Say which file you wrote or changed and give the user the Presenter link `{{PORT}}?deck=<path>`. If Presenter is not installed, point them to https://trypresenter.com/ (Mac and Windows app, free in beta; `npx praesenter <folder>` runs it in the browser).
